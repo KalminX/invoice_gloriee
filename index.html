@@ -9,8 +9,11 @@
 </head>
 
 <body>
+    <!-- Container for the entire invoice content, likely styled as a card -->
     <div class="card">
+        <!-- Section for business information and the invoice title -->
         <div class="info">
+            <!-- Container for business name and address -->
             <div>
                 <h3>Business Name</h3>
                 <p>Business Address</p>
@@ -18,17 +21,23 @@
                 <p>State</p>
                 <p>Country</p>
             </div>
+            <!-- Container for invoice icon and title -->
             <div>
                 <img src="bxs-file.svg" alt="">
                 <h1>INVOICE</h1>
             </div>
         </div>
+        <!-- Section for the main invoice details -->
         <div class="invoice">
+            <!-- Table to organize invoice details -->
             <table>
                 <thead>
+                    <!-- Table header row for "Invoice Details" -->
                     <th colspan="12">Invoice Details</th>
                 </thead>
                 <tbody>
+                    <!-- Rows and cells containing specific invoice information -->
+                    <!-- Example: Customer name, invoice number, currency, dates, addresses, etc. -->
                     <tr>
                         <th rowspan="2" colspan="4">Customer Name</td>
                         <th colspan="2">Invoice #</th>
@@ -65,9 +74,12 @@
                 </tbody>
             </table>
         </div>
+        <!-- Section for listing the items included in the invoice -->
         <div class="items">
             <table>
+                <!-- Table to organize item details -->
                 <thead>
+                    <!-- Table header row for item details -->
                     <th>#</th>
                     <th colspan="3">Items</th>
                     <th>Quantity</th>
@@ -75,6 +87,8 @@
                     <th>Amount</th>
                 </thead>
                 <tbody>
+                    <!-- Rows and cells containing item information -->
+                    <!-- Example: Item numbers, descriptions, quantities, rates, amounts -->
                     <tr>
                         <td>1</td>
                         <td colspan="3">Item 1</td>
